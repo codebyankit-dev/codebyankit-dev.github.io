@@ -4,26 +4,68 @@
   <title>CodeByAnkit</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #0f172a;
       color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
-      padding-top: 20%;
     }
+
+    .container {
+      max-width: 600px;
+    }
+
     h1 {
-      font-size: 40px;
+      font-size: 42px;
+      margin-bottom: 10px;
     }
-    p {
+
+    .author {
+      font-size: 16px;
       color: #94a3b8;
+      margin-bottom: 25px;
+    }
+
+    .tagline {
       font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .coming {
+      color: #94a3b8;
+      margin-bottom: 25px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #38bdf8;
+      font-weight: 500;
+    }
+
+    a:hover {
+      opacity: 0.8;
     }
   </style>
 </head>
+
 <body>
-  <h1>CodeByAnkit</h1>
-  <p>Learning. Building. Shipping.</p>
-  <p>Website launching soon 🚀</p>
+  <div class="container">
+    <h1>CodeByAnkit</h1>
+    <div class="author">By Ankit Garg</div>
+
+    <div class="tagline">Learning. Building. Shipping.</div>
+    <div class="coming">Practical digital tools launching soon 🚀</div>
+
+    <a href="https://github.com/codebyankit-dev" target="_blank">
+      Follow the journey on GitHub →
+    </a>
+  </div>
 </body>
 </html>
